@@ -31,25 +31,4 @@
 - Socket.io
 
 
-## Local Installation
-
-- There are three different branches develop, staging and main. The develop branch is the default branch.
-
-```bash
-git clone -b develop https://github.com/uzochukwueddie/chatty-backend.git
-cd chatty-backend
-npm install
-```
-- To start the server after installation, run
-```bash
-npm run dev
-```
-- Inside the `setupServer.ts` file, comment the line `sameSite: 'none'`.
-- You'll need to uncomment that line again before you deploy to AWS.
-
-Make sure mongodb and redis are both running on your local machine.
-
-
-
-
 
